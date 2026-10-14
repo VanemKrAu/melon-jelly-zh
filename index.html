@@ -36,6 +36,7 @@
 
   <div class="status" id="status" data-state="live" role="status" aria-live="polite"><span class="dot" aria-hidden="true"></span><span id="statusText">WEBGPU · 实时</span></div>
 
+  <div class="rail">
   <aside class="panel" aria-label="样本控制面板">
     <header><span class="label">实验样本</span><span>图 9</span></header>
     <div class="group">
@@ -107,6 +108,7 @@
       <p>WGSL 着色器会先渲染地板、西瓜籽和气泡，再绘制西瓜背面来估计每条视线穿过果冻的距离。正面会根据该厚度折射后方景物，并以比尔–朗伯吸收计算颜色；浅色层还会加入乳白散射，薄边产生背光泛红，菲涅耳反射与 GGX 高光共同构成工作室质感。地面会得到染上果冻颜色的柔和主阴影，以及由俯视高度图生成的接触遮挡。</p>
     </div>
   </details>
+  </div>
 
   <script type="module" src="./game.js"></script>
 </body>
